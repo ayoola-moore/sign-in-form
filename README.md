@@ -1,6 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In addition, a couple of library worth mentioning include formik and yup to complete the task. That would look overcomplicated for a simple task, but I will assume the goal is solve a simple problem using production code quality. 
+In addition, a couple of library worth mentioning include formik, yup and styled-components to complete the task. That would look overcomplicated for a simple task, but I will assume the goal is solve a simple problem using production code quality. 
+
+## A few note
+- I have added a placeholder to input field. I thought it was necessary. The aim was not to break the spec but fill in the technical gaps where the spec does not cover. 
+- I have also added the styled-components directly within the component files with only one exception. This is because the component for this particular project are small sized and are more readable. Some however, prefer to have styled component on a seperate file. 
 
 ## Available Scripts
 

@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import ErrorBoundary from "./components/errorBoundary";
-import ErrorMessage from "./components/errorBoundary/renderError";
+import ErrorBoundary from "./errorBoundary";
+import ErrorMessage from "./errorBoundary/RenderError";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
