@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign-in component renders correctly 1`] = `
+<div
+  className="sc-dlfnbm eZnYTT"
+>
+  <a
+    className="sc-bdfBwQ dZCzPq"
+    href="#"
+  >
+    Forget your password?
+  </a>
+  <div
+    className="sc-hKgILt kwOCTC"
+  >
+    Don't have an account? 
+    <a
+      className="sc-bdfBwQ sc-gsTCUz dZCzPq idHLlu"
+      href="#"
+    >
+      Sign up
+    </a>
+  </div>
+  <a
+    className="sc-bdfBwQ dZCzPq"
+    href="#"
+  >
+    Resend email confirmation
+  </a>
+</div>
+`;

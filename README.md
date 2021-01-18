@@ -4,7 +4,7 @@ In addition, a couple of library worth mentioning include formik, yup and styled
 
 ## A few note
 - I have added a placeholder to input field. I thought it was necessary. The aim was not to break the spec but fill in the technical gaps where the spec does not cover. 
-- I have also added the styled-components directly within the component files with only one exception. This is because the component for this particular project are small sized and are more readable. Some however, prefer to have styled component on a seperate file. 
+
 
 ## Available Scripts
 

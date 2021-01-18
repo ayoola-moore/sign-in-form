@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign-in form component renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label
+    className="sc-gsTCUz bdHVcV"
+    htmlFor="email"
+  >
+    Email
+  </label>
+  <input
+    className="sc-dlfnbm gtokWY"
+    id="email"
+    name="email"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Enter your email"
+    type="email"
+  />
+  <div
+    className="error"
+  />
+  <br />
+  <label
+    className="sc-gsTCUz bdHVcV"
+    htmlFor="password"
+  >
+    Password
+  </label>
+  <input
+    className="sc-dlfnbm gtokWY"
+    id="password"
+    name="password"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Enter your password"
+    type="password"
+  />
+  <div
+    className="error"
+  />
+  <br />
+  <div
+    className="sc-hKgILt fyGWxI"
+  >
+    <input
+      className="sc-dlfnbm gtokWY"
+      id="remember"
+      name="remember"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      htmlFor="Remember me"
+    >
+       Remember me?
+    </label>
+  </div>
+  <button
+    className="sc-bdfBwQ gYXtGj"
+    disabled={true}
+    type="submit"
+  >
+    Sign in
+  </button>
+</form>
+`;
