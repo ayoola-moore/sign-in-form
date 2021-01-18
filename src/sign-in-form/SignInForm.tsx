@@ -2,7 +2,7 @@ import axios from "axios";
 import { useFormik } from "formik";
 import React from "react";
 import * as Yup from "yup";
-import { Input, Label, RememberMe, SignIn } from "./Styled";
+import { Form, Input, Label, RememberMe, SignIn } from "./styled";
 
 interface IValues {
   email: string;
@@ -37,7 +37,11 @@ const SignInForm = () => {
 
   return (
     <>
-      <form onSubmit={formik.handleSubmit}>
+      <Form
+        role="form"
+        aria-label="Sign in form"
+        onSubmit={formik.handleSubmit}
+      >
         <Label htmlFor="email">Email</Label>
         <Input
           id="email"
@@ -79,13 +83,13 @@ const SignInForm = () => {
             onBlur={formik.handleBlur}
             value={formik.values.remember}
           />
-          <label htmlFor="Remember me"> Remember me?</label>
+          <label htmlFor="remember"> Remember me?</label>
         </RememberMe>
 
         <SignIn type="submit" disabled={!(formik.isValid && formik.dirty)}>
           Sign in
         </SignIn>
-      </form>
+      </Form>
     </>
   );
 };

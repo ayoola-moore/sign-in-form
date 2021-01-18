@@ -43,3 +43,7 @@ export const RememberMe = styled.div`
     margin-right: 3%;
   }
 `;
+
+export const Form = styled.form`
+  display: block;
+`;
