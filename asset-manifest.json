@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sign-in-form/static/css/main.00a5ec12.chunk.css",
+    "main.js": "/sign-in-form/static/js/main.cb8b60f6.chunk.js",
+    "main.js.map": "/sign-in-form/static/js/main.cb8b60f6.chunk.js.map",
+    "runtime-main.js": "/sign-in-form/static/js/runtime-main.b0516b5d.js",
+    "runtime-main.js.map": "/sign-in-form/static/js/runtime-main.b0516b5d.js.map",
+    "static/js/2.56ee01d2.chunk.js": "/sign-in-form/static/js/2.56ee01d2.chunk.js",
+    "static/js/2.56ee01d2.chunk.js.map": "/sign-in-form/static/js/2.56ee01d2.chunk.js.map",
+    "index.html": "/sign-in-form/index.html",
+    "precache-manifest.b5211fa46e90e3a827e953cbe5554e83.js": "/sign-in-form/precache-manifest.b5211fa46e90e3a827e953cbe5554e83.js",
+    "service-worker.js": "/sign-in-form/service-worker.js",
+    "static/css/main.00a5ec12.chunk.css.map": "/sign-in-form/static/css/main.00a5ec12.chunk.css.map",
+    "static/js/2.56ee01d2.chunk.js.LICENSE.txt": "/sign-in-form/static/js/2.56ee01d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0516b5d.js",
+    "static/js/2.56ee01d2.chunk.js",
+    "static/css/main.00a5ec12.chunk.css",
+    "static/js/main.cb8b60f6.chunk.js"
+  ]
+}
