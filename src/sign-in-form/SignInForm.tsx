@@ -2,7 +2,7 @@ import axios from "axios";
 import { useFormik } from "formik";
 import React from "react";
 import * as Yup from "yup";
-import { Form, Input, Label, RememberMe, SignIn } from "./Styled";
+import { Form, Input, Label, RememberMe, SignIn } from "./styled";
 
 interface IValues {
   email: string;

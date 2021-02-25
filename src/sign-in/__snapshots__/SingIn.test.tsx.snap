@@ -1,25 +1,126 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`sign-in component renders correctly 1`] = `
+.c8 {
+  color: #000;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.c10 {
+  display: inline;
+}
+
+.c7 {
+  display: block;
+  text-align: center;
+  line-height: 2em;
+  padding: 5% 0px 0;
+}
+
+.c9 {
+  display: block;
+  width: 100%;
+}
+
+.c6 {
+  display: block;
+  background-color: #06874e;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 2% 0;
+  border: none;
+  width: 100%;
+}
+
+.c6:disabled {
+  background: #ccc;
+}
+
+.c6 a {
+  color: #fff;
+}
+
+.c3 {
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  padding: 1% 0;
+}
+
+.c4 {
+  width: 100%;
+  padding: 4%;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1% 0 5%;
+}
+
+.c5 input {
+  width: auto;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  border: 1px solid;
+  margin-right: 3%;
+}
+
+.c2 {
+  display: block;
+}
+
+.c0 {
+  text-align: left;
+  display: block;
+  padding: 0 2% 4%;
+  width: 50%;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+  border-top: 2px solid #06874e;
+  border-radius: 1px;
+  background-color: #fff;
+}
+
+.c1 {
+  text-align: center;
+  display: inline-block;
+  text-transform: initial;
+  width: 100%;
+  font-size: 1.5em;
+}
+
 <div
-  className="sc-fubCfw iEKpig"
+  className="c0"
 >
   <h1
-    className="sc-pFZIQ fcuGER"
+    className="c1"
   >
     Sign in
   </h1>
   <form
+    aria-label="Sign in form"
+    className="c2"
     onSubmit={[Function]}
+    role="form"
   >
     <label
-      className="sc-jSgupP hSGbvS"
+      className="c3"
       htmlFor="email"
     >
       Email
     </label>
     <input
-      className="sc-gKsewC bWkgAl"
+      className="c4"
       id="email"
       name="email"
       onBlur={[Function]}
@@ -32,13 +133,13 @@ exports[`sign-in component renders correctly 1`] = `
     />
     <br />
     <label
-      className="sc-jSgupP hSGbvS"
+      className="c3"
       htmlFor="password"
     >
       Password
     </label>
     <input
-      className="sc-gKsewC bWkgAl"
+      className="c4"
       id="password"
       name="password"
       onBlur={[Function]}
@@ -51,10 +152,10 @@ exports[`sign-in component renders correctly 1`] = `
     />
     <br />
     <div
-      className="sc-iBPRYJ fTaTAP"
+      className="c5"
     >
       <input
-        className="sc-gKsewC bWkgAl"
+        className="c4"
         id="remember"
         name="remember"
         onBlur={[Function]}
@@ -62,13 +163,13 @@ exports[`sign-in component renders correctly 1`] = `
         type="checkbox"
       />
       <label
-        htmlFor="Remember me"
+        htmlFor="remember"
       >
          Remember me?
       </label>
     </div>
     <button
-      className="sc-eCssSg emYSEx"
+      className="c6"
       disabled={true}
       type="submit"
     >
@@ -76,27 +177,27 @@ exports[`sign-in component renders correctly 1`] = `
     </button>
   </form>
   <div
-    className="sc-dlfnbm eZnYTT"
+    className="c7"
   >
     <a
-      className="sc-bdfBwQ dZCzPq"
+      className="c8"
       href="#"
     >
       Forget your password?
     </a>
     <div
-      className="sc-hKgILt kwOCTC"
+      className="c9"
     >
       Don't have an account? 
       <a
-        className="sc-bdfBwQ sc-gsTCUz dZCzPq idHLlu"
+        className="c8 c10"
         href="#"
       >
         Sign up
       </a>
     </div>
     <a
-      className="sc-bdfBwQ dZCzPq"
+      className="c8"
       href="#"
     >
       Resend email confirmation

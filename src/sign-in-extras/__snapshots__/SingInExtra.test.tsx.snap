@@ -1,28 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sign-in component renders correctly 1`] = `
+.c1 {
+  color: #000;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.c3 {
+  display: inline;
+}
+
+.c0 {
+  display: block;
+  text-align: center;
+  line-height: 2em;
+  padding: 5% 0px 0;
+}
+
+.c2 {
+  display: block;
+  width: 100%;
+}
+
 <div
-  className="sc-dlfnbm eZnYTT"
+  className="c0"
 >
   <a
-    className="sc-bdfBwQ dZCzPq"
+    className="c1"
     href="#"
   >
     Forget your password?
   </a>
   <div
-    className="sc-hKgILt kwOCTC"
+    className="c2"
   >
     Don't have an account? 
     <a
-      className="sc-bdfBwQ sc-gsTCUz dZCzPq idHLlu"
+      className="c1 c3"
       href="#"
     >
       Sign up
     </a>
   </div>
   <a
-    className="sc-bdfBwQ dZCzPq"
+    className="c1"
     href="#"
   >
     Resend email confirmation
