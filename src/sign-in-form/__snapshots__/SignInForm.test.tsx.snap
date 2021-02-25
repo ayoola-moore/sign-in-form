@@ -2,7 +2,10 @@
 
 exports[`Sign-in form component renders correctly 1`] = `
 <form
+  aria-label="Sign in form"
+  className="sc-eCssSg fSuOCU"
   onSubmit={[Function]}
+  role="form"
 >
   <label
     className="sc-gsTCUz bdHVcV"
@@ -54,7 +57,7 @@ exports[`Sign-in form component renders correctly 1`] = `
       type="checkbox"
     />
     <label
-      htmlFor="Remember me"
+      htmlFor="remember"
     >
        Remember me?
     </label>
